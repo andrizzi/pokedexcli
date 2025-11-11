@@ -69,5 +69,10 @@ func getCommands() map[string]cliCommand {
 			description: "Display the map of the Pokemon world",
 			callback:    commandMap,
 		},
+		"mapb": {
+			name:        "mapb",
+			description: "Go back to the previous map page",
+			callback:    commandMapBack,
+		},
 	}
 }
