@@ -5,6 +5,7 @@ import (
 )
 
 func commandMap(cfg *config) error {
+
 	locationsResp, err := cfg.pokeClient.ListLocations(cfg.nextLocationsURL)
 	if err != nil {
 		return err
