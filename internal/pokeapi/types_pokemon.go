@@ -1,6 +1,6 @@
 package pokeapi
 
-type RespShallowPokemons struct {
+/*type RespShallowPokemons struct {
 	Name   string `json:"name"`
 	Weight int    `json:"weight"`
 	Height int    `json:"height"`
@@ -13,7 +13,7 @@ type RespShallowPokemons struct {
 		speed   int `json:"base_stat"`
 	} `json:"stats"`
 	Types []string `json:"types"`
-}
+}*/
 
 type RespDetailedPokemons struct {
 	ID             int    `json:"id"`
